@@ -107,7 +107,7 @@ function VideoPlaceholder() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full bg-black"
+              className="w-full bg-gray-400"
             />
           </div>
           <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white">
