@@ -48,8 +48,8 @@ function HeroSection() {
   return (
     <section className="text-center mb-16 text-black">
       <h2 className="text-sm font-semibold text-blue-600 mb-2">ANÁLISE DE ENGAJAMENTO DE VÍDEO</h2>
-      <h1 className="text-4xl font-bold mb-4">Análises feitas para ação</h1>
-      <p className="text-xl mb-6">Acompanhe o desempenho, otimize seus vídeos e obtenha resultados reais.</p>
+      <h1 className="text-5xl font-bold mb-4">Retenção, engajamento e momentos mais asssistidos</h1>
+      <p className="text-xl mb-6">Veja o engajamento do seu vídeo por canal de aquisição, por pessoa e tenha resultados reais.</p>
       <Button className="bg-blue-600 text-white text-lg px-8 py-3">Iniciar teste gratuito</Button>
     </section>
   )
@@ -97,7 +97,7 @@ function VideoPlaceholder() {
         </div> */}
         <form onSubmit={handleSubmit} className="w-full max-w-md space-y-4">
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-white mb-1">
+            <label htmlFor="email" className="block text-sm font-medium text-white md:text-white mb-1">
               O SEU E-MAIL
             </label>
             <Input
