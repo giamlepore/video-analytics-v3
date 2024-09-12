@@ -127,7 +127,12 @@ function VideoPlaceholder() {
 
 function FeatureCards() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 text-black">
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-16 text-black">
+      <FeatureCard
+        icon={<BarChart2 />}
+        title="Hoje, você tem esse insight no seu vídeo?"
+        description="Usuário João assistiu 56% do vídeo, e voltou 3 vezes na parte do vídeo que fala sobre um tema específico. João está acima da média dos usuários, que assiste apenas 29%. E próximo a média do canal Instagram, que assiste 52%. Será que João deve receber alguma comunicação?"
+      />
       <FeatureCard
         icon={<BarChart2 />}
         title="Mapas de calor de vídeo"
@@ -143,11 +148,11 @@ function FeatureCards() {
         title="Integrações"
         description="Conecte o Insights à sua plataforma de automação de marketing (MAP) para trazer vídeos para sua estratégia geral."
       />
-      <FeatureCard
+      {/* <FeatureCard
         icon={<Video />}
         title="Webinars"
         description="Veja quais segmentos dos seus webinars são mais envolventes e como eles são ao longo do seu evento."
-      />
+      /> */}
     </section>
   )
 }
