@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { BarChart2, Users, Zap, Video, Check} from "lucide-react"
+import { BarChart2, Users, Zap, Check} from "lucide-react"
 // import { Slider } from "@/components/ui/slider"
 import { CardContent, Card } from "@/components/ui/card"
 
